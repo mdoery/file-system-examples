@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "rm test/afile1.txt ; rm test/afile2.txt ; mocha"
   },
   "author": "mdoery@gmail.com",
   "license": "ISC",
